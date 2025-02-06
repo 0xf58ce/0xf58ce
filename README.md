@@ -1,10 +1,12 @@
+README 
+
 Feb 6 2025 13:51:39
 - 👋 Hi, I’m @0xf58ce
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
+- 👀 I’m interested in ACCUMULATE ALL SUMMARY 
+- 🌱 I’m currently learning .TRUE
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
+- 📫 How to reach me . walletaplapprouve@gmail.com..
+- 😄 Pronouns: .. BITCOIN.
 - ⚡ Fun fact: ...feeds $1514606 - feeds $ 1499092 "Move registerProtocolHandler code out of browser/components/feeds/" to SeaMonkey
 Bugzilla
 
