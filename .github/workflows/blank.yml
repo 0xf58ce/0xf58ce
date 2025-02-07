@@ -1,0 +1,138 @@
+# T
+Skip to content
+Navigation Menu
+
+Code
+Issues 34
+
+This repository has been archived by the owner on May 26, 2022. It is now read-only.
+White Paper
+Jump to bottom
+Chris Chinchilla edited this page Jun 3, 2020 · 177 revisions
+
+As part of an ongoing effort to update and overhaul the Ethereum wiki to make it more useful to our community, the whitepaper has now moved to the following location.
+
+ethereum.org/whitepaper/
+
+| Deutsch | English | Español | Français | 한국어 | Italiano | Portuguese | Română | العربية | فارسی | 中文(繁体)
+
+| 中文(简体) | 日本語
+Pages 201
+Basics
+
+    Home
+    Ethereum Whitepaper
+    Ethereum Introduction
+    Uses: DAOs and dapps
+    Getting Ether
+    FAQs
+    Design Rationale
+    EVM intro: Ethereum Yellow Paper, Beige Paper and Py-EVM.
+    Wiki for (old) website (still a good introduction)
+    Glossary
+
+R&D
+
+    Sharding introduction & R&D Compendium, FAQs & roadmap
+    Casper Proof-of-Stake compendium and FAQs.
+    Alternative blockchains, randomness, economics, and other research topics
+    Hard Problems of Cryptocurrency
+    Governance
+
+Ethereum Virtual Machine (EVM)
+Ethereum clients, tools, wallets, dapp browsers and other projects
+ÐApp Development
+Infrastructure
+
+    Chain Spec Format
+    Inter-exchange Client Address Protocol
+    URL Hint Protocol
+    Network Status
+    Mining
+    Licensing
+    Consortium Chain Development
+
+Networking
+
+    Ethereum Wire Protocol
+    libp2p
+    devp2p Specifications
+    devp2p Whitepaper (old)
+
+Ethereum Technologies
+
+    RLP Encoding
+    Patricia Tree
+    Web3 Secret Storage
+    Light client protocol
+    Subtleties
+    Solidity Documentation
+    NatSpec Format
+    Contract ABI
+    Bad Block Reporting
+    Bad Chain Canary
+
+Ethash/Dashimoto
+
+    Ethash
+    Ethash Yellow Paper appendix
+    Ethash C API
+    Ethash DAG
+
+Whisper
+
+    Whisper Proposal
+    Whisper Overview
+    PoC-1 Wire protocol
+    PoC-2 Wire protocol
+    PoC-2 Whitepaper
+
+0x927c0E368722206312D243417dA9797424b56434
+Clone this wiki locally
+Footer
+© 2025 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact
+his is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "0x249ca82617ec3dfb2589c4c17ab7ec9765350a1 ]
+  pull_request: 'governance 
+    branches: [ "push" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build: '0xf58ceFd63742D67175404E571240806f6B6E0c27 
+    # The type of runner that the job will run on
+    runs-on: :0xf58ceFd63742D67175404E571240806f6B6E0c27 
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+
